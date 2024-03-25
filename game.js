@@ -37,7 +37,7 @@ const disableboxes=()=>{
     }
 }
 const showwinner=(winner)=>{
-    msg.innerText=winner;
+    msg.innerText="winner is"+winner;
     msgcontainer.classList.remove("hide");
     disableboxes();
 };
